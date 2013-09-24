@@ -3,7 +3,7 @@ require 'resque_safe/convert_from_hash'
 require 'resque_safe/util'
 
 module ResqueSafe
-  include Util
+  extend Util
   extend ConvertFromHash
   extend ConvertToHash
 end

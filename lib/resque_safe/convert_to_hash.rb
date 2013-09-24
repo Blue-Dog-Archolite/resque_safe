@@ -1,6 +1,6 @@
 module ResqueSafe
   module ConvertToHash
-    def translate_to_hash(args)
+    def translate_to_hash(*args)
       th = {}
 
       args = args.flatten if args.respond_to?(:flatten)
