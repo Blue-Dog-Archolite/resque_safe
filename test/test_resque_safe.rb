@@ -1,7 +1,11 @@
 require 'helper'
 
-class TestResqueSafe < MiniTest::Unit::TestCase
+class TestResqueSafe < MiniTest::Test
   def test_something_for_real
     flunk "hey buddy, you should probably rename this file and start testing for real"
+  end
+
+  def test_something_true
+    assert true
   end
 end
