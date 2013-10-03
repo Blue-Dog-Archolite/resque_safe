@@ -1,6 +1,7 @@
 = resque_safe
 
-Description goes here.
+Encodes active record and hash objects in to small json safe objects for resque to use in mailer and other procesors
+
 
 == Contributing to resque_safe
  

@@ -19,8 +19,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "resque_safe"
   gem.homepage = "http://github.com/Blue-Dog-Archolite/resque_safe"
   gem.license = "MIT"
-  gem.summary = %Q{ one-line summary of your gem}
-  gem.description = %Q{ longer description of your gem}
+  gem.summary = %Q{ Resque Safe conversion for ActiveRecord objects}
+  gem.description = %Q{ Coverts hash and ActiveRecord objects to minimal repersentations for resque to use}
   gem.email = "Blue.Dog.Archolite@gmail.com"
   gem.authors = ["Robert R. Meyer"]
   gem.files = Dir.glob('lib/**/*.rb')
