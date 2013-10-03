@@ -30,9 +30,9 @@ module ResqueSafe
         if Object.const_defined?(klassified_klass) &&
           known_models.include?(klassified_klass.constantize)
 
-          set_for_active_record(klassified_klass, value)
+          set_instance_for_active_record(klassified_klass, value)
         else
-          set_for_other(klass_name, value)
+          set_instance_for_other(klass_name, value)
         end
       end
     end
