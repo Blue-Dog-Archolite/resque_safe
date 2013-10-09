@@ -4,8 +4,11 @@ gem "activesupport", "~> 3.2"
 gem 'atomic'
 gem 'i18n'
 gem 'tzinfo'
-gem "minitest", "~> 4.2"
 gem 'thread_safe'
+
+group :test do
+  gem "minitest", "~> 4.2"
+end
 
 group :development do
   gem "rdoc", "~> 3.12"
