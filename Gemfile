@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
 gem "activesupport", "~> 3.2"
-gem 'atomic'
 gem 'i18n'
 gem 'tzinfo'
-gem 'thread_safe'
 
 group :test do
   gem "minitest", "~> 4.2"
+  gem 'thread_safe'
+  gem 'atomic'
 end
 
 group :development do
